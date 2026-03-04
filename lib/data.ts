@@ -1,4 +1,5 @@
 import aiChatBotImg from "@/public/aichatbot.png";
+import matchboxImg from "@/public/matchbox.png";
 import onlineExaminationPlatformImg from "@/public/onlineExaminationPlatform.png";
 
 import { CgWorkAlt } from "react-icons/cg";
@@ -114,13 +115,13 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "AI-powered Chatbot",
+    title: "Matchbox",
     description:
-      "AI chatbot using the MERN stack and Gemini API for dynamic conversations with real-time Socket.io communication. The backend leverages Node.js, Express, and MongoDB for scalable session tracking.",
-    tags: ["React", "NodeJS", "MongoDB", "Socket.io", "Gemini Api"],
-    imageUrl: aiChatBotImg,
-    url: "",
-    sourceLink: "https://github.com/Spark0914724/Ai-chat-bot"
+      "A powerful team collaboration and productivity platform that helps users manage projects, track tasks, and monitor performance with real-time updates and analytics.",
+    tags: ["React", "TypeScript", "Spring Boot", "PostgreSQL", "Tailwind CSS", "Render", "Vercel"],
+    imageUrl: matchboxImg,
+    url: "https://matchbox-zeta.vercel.app",
+    sourceLink: "https://github.com/Spark0914724/matchbox-frontend.git"
   },
   {
     title: "EDU-XIE Online Examination Platform",
@@ -129,7 +130,7 @@ export const projectsData = [
     tags: ["React", "Next.js", "TypeScript", "MongoDB", "Tailwind CSS", "JWT", "Framer Motion", "Recharts"],
     imageUrl: onlineExaminationPlatformImg,
     url: "http://edu-xie.vercel.app/",
-    sourceLink: "https://github.com/Spark0914724/online-examination-system"
+    // sourceLink: "https://github.com/Spark0914724/online-examination-system"
   },
 ] as const;
 
