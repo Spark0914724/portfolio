@@ -47,7 +47,7 @@ export const profile = {
   likes: "building web and mobile apps",
   // resumeLink: `https://www.uvic.ca/career-services/_assets/docs/resume-computer-engineering.pdf`,
   linkedInLink: "",
-  githubLink: "https://github.com/shinespark460",
+  githubLink: "https://github.com/Spark0914724",
 } as const;
 
 export const links = [
@@ -120,7 +120,7 @@ export const projectsData = [
     tags: ["React", "NodeJS", "MongoDB", "Socket.io", "Gemini Api"],
     imageUrl: aiChatBotImg,
     url: "",
-    sourceLink: "https://github.com/shinespark460/Ai-chat-bot"
+    sourceLink: "https://github.com/Spark0914724/Ai-chat-bot"
   },
   {
     title: "EDU-XIE Online Examination Platform",
@@ -129,7 +129,7 @@ export const projectsData = [
     tags: ["React", "Next.js", "TypeScript", "MongoDB", "Tailwind CSS", "JWT", "Framer Motion", "Recharts"],
     imageUrl: onlineExaminationPlatformImg,
     url: "http://edu-xie.vercel.app/",
-    sourceLink: "https://github.com/shinespark460/online-examination-system"
+    sourceLink: "https://github.com/Spark0914724/online-examination-system"
   },
 ] as const;
 
