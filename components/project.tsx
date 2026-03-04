@@ -14,7 +14,7 @@ export default function Project({
   tags,
   imageUrl,
   url,
-  sourceLink
+  // sourceLink
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -59,7 +59,7 @@ export default function Project({
             <a href={url} target="_blank">View</a>
           </Button>
          
-          {sourceLink && (
+          {/* {sourceLink && (
             <Button
               className={
                 "transition transform z-10 translate-y-8 ease-in-out invisible absolute group-hover:visible  rounded-full right-8 top-20 group-hover:translate-y-0"
@@ -67,7 +67,7 @@ export default function Project({
             >
               <a href={sourceLink} target="_blank">Source</a>
             </Button>
-          )}
+          )} */}
         </div>
 
         <Image
